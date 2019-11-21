@@ -36,12 +36,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var analyzeResultTableView: UITableView!
     var analysis = [analysisResult]()
     
+    /*
+     Save the overall emoji use counter
+     */
+    @IBOutlet weak var overallResultTableView: UITableView!
+    var globalEmojiCounter = [Character:Int]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         //Set up tableView delegation
         analyzeResultTableView.dataSource = self
         analyzeResultTableView.delegate = self
+        overallResultTableView.dataSource = self
+        overallResultTableView.delegate = self
     }
 
     @IBAction func actionPrepare(){
@@ -77,18 +84,17 @@ class ViewController: UIViewController {
                 } else {
                     emojiCounter[emoji] = 1
                 }
+                //Add to global counter
+                globalEmojiCounter(emoji: emoji)
             }
         }
         //Filter
         let sorted = emojiCounter.sorted(by: { $0.value > $1.value })
-        //Update log
-        logText.append("Result: " + sorted.description)
-        //Update chart
-        
         //Add to results table
         let resultEntry = analysisResult(twitterAccountName: twitterAccountField.text, topEmojis: Array(emojiCounter.keys.sorted()))
         analysis.append(resultEntry)
         self.analyzeResultTableView.reloadData()
+        self.overallResultTableView.reloadData()
     }
 
 }
@@ -99,23 +105,64 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return analysis.count
+        
+        if (tableView == analyzeResultTableView) {
+            return analysis.count
+        } else if (tableView == overallResultTableView) {
+            return globalEmojiCounter.count
+        }
+        
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        //Fetch object
         let rowI = indexPath.row
-        let obj = analysis[rowI]
-        //Prepare view
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
-        cell.textLabel?.text = obj.twitterAccountName
-        //Generate top 3
-        var topEmojiStr = "Top Emojis: "
-        for emojiChar in obj.topEmojis {
-            topEmojiStr.append(String(emojiChar) + " ")
+        
+        if (tableView == analyzeResultTableView) {
+            
+            //Fetch object
+            let obj = analysis[rowI]
+            //Prepare view
+            cell.textLabel?.text = obj.twitterAccountName
+            //Generate top 3
+            var topEmojiStr = "Top Emojis: "
+            for emojiChar in obj.topEmojis {
+                topEmojiStr.append(String(emojiChar) + " ")
+            }
+            cell.detailTextLabel?.text = topEmojiStr
+            
+        } else if (tableView == overallResultTableView) {
+            
+            let sorted = globalEmojiCounter.sorted(by: { $0.value > $1.value })
+            let emojiEntry = sorted[rowI]
+            cell.textLabel?.text = "No. " + String(rowI + 1) + ". " + String(emojiEntry.key)
+            cell.detailTextLabel?.text = "Used for " + String(emojiEntry.value) + " times"
+            
+            //Special background color for top 3
+            if (rowI == 0) {
+                cell.textLabel?.textColor = .black
+                cell.backgroundColor = .systemRed
+            } else if (rowI == 1) {
+                cell.textLabel?.textColor = .black
+                cell.backgroundColor = .systemOrange
+            } else if (rowI == 2) {
+                cell.textLabel?.textColor = .black
+                cell.backgroundColor = .systemYellow
+            }
+            
         }
-        cell.detailTextLabel?.text = topEmojiStr
+        
+        cell.selectionStyle = .none
         return cell
+    }
+    
+    func globalEmojiCounter(emoji: Character) {
+        if globalEmojiCounter.keys.contains(emoji) {
+            globalEmojiCounter[emoji]! += 1
+        } else {
+            globalEmojiCounter[emoji] = 1
+        }
     }
     
 }

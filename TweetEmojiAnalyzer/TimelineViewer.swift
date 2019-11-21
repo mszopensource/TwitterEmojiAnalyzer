@@ -20,8 +20,7 @@ class TimelineViewer: TWTRTimelineViewController {
         let client = TWTRAPIClient.withCurrentUser()
         self.dataSource = TWTRUserTimelineDataSource(screenName: passingTwitterName, apiClient: client)
         
-
-        self.title = "@ShunzheMa"
+        self.title = "@" + passingTwitterName
         self.showTweetActions = false
     }
     
