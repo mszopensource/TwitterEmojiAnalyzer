@@ -7,6 +7,10 @@ This iOS app helps fetch timeline tweets from a given Twitter username and analy
 I'm taking a course about Language and Culture at CMU, and it requires a final project. I was thinking: maybe I can use my computer science skills on this one to make it more interesting. So I decided to analyze the usage of emojis by different categories of Twitter accounts. (What are the top emojis for entertainment accounts, news accounts, tech reviewers' accounts, etc.)
 
 ## The UI
+
+The interface contains configurations (on the very top), logs (on top), and two table views (with the left one showing the analyzing results and the right one showing the overall emoji usage counting).
+
+## How to use?
 0. Provide a Twitter developer key and secret in `AppDelegate.Swift`, you can obtain one [here](https://developer.twitter.com/en.html)
 1. On the top of the app, enter the Twitter username (like: AppleMusic)
 2. Click on `Load Tweets`. You will see a list of tweets for that username, scroll to load the tweets you want to analuze (the more you scroll, the more tweets get loaded and analyzed. There might be a better way to fetch timeline).
