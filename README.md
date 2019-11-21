@@ -15,6 +15,9 @@ I'm taking a course about Language and Culture at CMU, and it requires a final p
 ![image](https://github.com/msztech/TwitterEmojiAnalyzer/blob/master/screenshot.jpeg?raw=true)
 
 ## Frameworks
+
+(Pod files are included in the Github Repo for version consistency and convenience for you to compile)
+
 This app uses the [TwitterKit](https://github.com/twitter-archive/twitter-kit-ios) framework. And it's using `TWTRTimelineViewController` to load the tweets of a specific user and using `- (TWTRTweet *)tweetAtIndex:(NSInteger)index;` to fetch the tweet at a specific index. That's why it's important to load the tweets in the timeline view controller first.
 
 ## License
