@@ -1,10 +1,7 @@
-ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/RKPieChart" "${PODS_ROOT}/TwitterCore/iOS" "${PODS_ROOT}/TwitterKit/iOS"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TwitterCore/iOS" "${PODS_ROOT}/TwitterKit/iOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/RKPieChart/RKPieChart.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "Accounts" -framework "CoreData" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreText" -framework "Foundation" -framework "QuartzCore" -framework "RKPieChart" -framework "SafariServices" -framework "Security" -framework "Social" -framework "TwitterCore" -framework "TwitterKit" -framework "UIKit"
-OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "Accounts" -framework "CoreData" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreText" -framework "Foundation" -framework "QuartzCore" -framework "SafariServices" -framework "Security" -framework "Social" -framework "TwitterCore" -framework "TwitterKit" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

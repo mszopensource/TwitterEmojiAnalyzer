@@ -1,24 +1,20 @@
 PODS:
-  - RKPieChart (0.0.1)
   - TwitterCore (3.2.0)
   - TwitterKit (3.4.2):
     - TwitterCore (>= 3.2.0)
 
 DEPENDENCIES:
-  - RKPieChart
   - TwitterKit
 
 SPEC REPOS:
   trunk:
-    - RKPieChart
     - TwitterCore
     - TwitterKit
 
 SPEC CHECKSUMS:
-  RKPieChart: 8e643c505d24e61574f3a2fd6bd807403840b24b
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: e2f8d095a9d833c605ca9b52117603f878786bd3
+PODFILE CHECKSUM: 6a41ca5efdd65e361f67b1a921ac4efabd28ef50
 
 COCOAPODS: 1.8.4

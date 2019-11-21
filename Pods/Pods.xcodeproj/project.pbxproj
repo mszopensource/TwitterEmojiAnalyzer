@@ -29,30 +29,24 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		219D053086EBFA04453E383E33247772 /* RKChartTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0154E582B572EEE91E20F1C61D00319 /* RKChartTitleView.swift */; };
-		273DB797D7816C80474970D1805D7290 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D5FE3F97A49873DF4F5BF573161029 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DC2BB8899470F37707B511EF60559BE /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 451696E48625D2AB92CF1A57876BA2BB /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-dummy.m */; };
-		2E039CC0B975081B3AD533E71F9F17DC /* RKPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC798889668A0FC4DAE0CAF89CCF5B2 /* RKPieChartView.swift */; };
-		452E606312DABF031776D521E6984D8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5AC3D52E70A5FF2FB0E622A9C8BDBF28 /* RKPieChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCB289472AA670981066096DD3D730F /* RKPieChart-dummy.m */; };
-		6B5D1C2A7FA7616BF1FB3B7E2A19EE2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		20B292BA3340262980F230841E9EBAA9 /* Pods-TweetEmojiAnalyzer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C538676ED38BFD6F79FE371FAEFB3EB4 /* Pods-TweetEmojiAnalyzer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		578C9433697FA2C18E79D62240398B51 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 451696E48625D2AB92CF1A57876BA2BB /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-dummy.m */; };
+		726CB09C2FD4573F16192722483B7BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		755AF8D8DF1EFE6D5580A0C83DE3BF22 /* Pods-TweetEmojiAnalyzerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CC86FF378B4667C79AF96DA532623F /* Pods-TweetEmojiAnalyzerTests-dummy.m */; };
 		7631EAC8D39D0AB2A87FC25688F06673 /* Pods-TweetEmojiAnalyzerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA46589ECDD367E814DD16D00B9A6E3 /* Pods-TweetEmojiAnalyzerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7651F27EFF46196A5E90369F35BFAA53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		7EE8E6FBD4F221DA7BBCD672F8704D59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9D0FCA250EA7ADC5952A972E60BCA386 /* RKPieChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 111C9ACB4483CDD7B7F8E058A562302A /* RKPieChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEC46A5504AB4063B723472FB863B2B3 /* Pods-TweetEmojiAnalyzer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C538676ED38BFD6F79FE371FAEFB3EB4 /* Pods-TweetEmojiAnalyzer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA1E20755070B29981123777100FF49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E58DC53C4B7A29A6203715AFCCB38BCF /* Pods-TweetEmojiAnalyzer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 035B346E5C930AC4151B6FE45B1672B3 /* Pods-TweetEmojiAnalyzer-dummy.m */; };
-		EB668D2106140C0594F41A23EA581E4C /* RKPieChartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F17C5405B202914F79C8F523F003F9E /* RKPieChartItem.swift */; };
+		A358AF0ABD724AD5A247561E3FC06489 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D5FE3F97A49873DF4F5BF573161029 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B66447E5D469F3801DDA0354D657F03F /* Pods-TweetEmojiAnalyzer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 035B346E5C930AC4151B6FE45B1672B3 /* Pods-TweetEmojiAnalyzer-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		162360A8C478C8DF9EA1D883565601BC /* PBXContainerItemProxy */ = {
+		084F45B82EF15CE875A6020119527135 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D6137B0C81EB5C39983C8DD12A03181;
-			remoteInfo = RKPieChart;
+			remoteGlobalIDString = D0D98A3F1DDB5986495AF1DD067F7C78;
+			remoteInfo = TwitterCore;
 		};
 		162463729D0CA3CB3C48A530517C6EBC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -61,26 +55,19 @@
 			remoteGlobalIDString = D0D98A3F1DDB5986495AF1DD067F7C78;
 			remoteInfo = TwitterCore;
 		};
-		4392A6B08F331F3CA60F7DD965241B29 /* PBXContainerItemProxy */ = {
+		5C4C5DA31328A045FC219013CDF42AAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D0D98A3F1DDB5986495AF1DD067F7C78;
 			remoteInfo = TwitterCore;
 		};
-		63155FCD78462724C4620DE93C412A4E /* PBXContainerItemProxy */ = {
+		71E37328C52B5A034D2042A9BEA3F66E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B60766D2DF87D6EAD1E04F386DA8986E;
 			remoteInfo = TwitterKit;
-		};
-		7F5E0F7C1F32A46C408F748D6EAEADB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D6137B0C81EB5C39983C8DD12A03181;
-			remoteInfo = RKPieChart;
 		};
 		8593081618024B467FB3AAC931B5B7D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -89,19 +76,12 @@
 			remoteGlobalIDString = D338B550A85D262856A587CCC19621D4;
 			remoteInfo = "Pods-TweetEmojiAnalyzer";
 		};
-		BA834D88674900D87E230FAEAEFB8A22 /* PBXContainerItemProxy */ = {
+		C7DC60E2A1CD4DD84BBAA79D6FDF1F35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B60766D2DF87D6EAD1E04F386DA8986E;
 			remoteInfo = TwitterKit;
-		};
-		DE21BD4AA9949137359AB982D7CA8A64 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0D98A3F1DDB5986495AF1DD067F7C78;
-			remoteInfo = TwitterCore;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -112,20 +92,16 @@
 		05D98D9D5094D98A0ED69B8DC378CC3D /* Pods_TweetEmojiAnalyzerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TweetEmojiAnalyzerTests.framework; path = "Pods-TweetEmojiAnalyzerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2A46587B7BA611344E9CC73084096F /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-Info.plist"; sourceTree = "<group>"; };
 		0C5D8FB099A01E1A3FEC94BAE6DCFE31 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-resources.sh"; sourceTree = "<group>"; };
-		111C9ACB4483CDD7B7F8E058A562302A /* RKPieChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKPieChart-umbrella.h"; sourceTree = "<group>"; };
-		153F6C1E2DA3A88EA50BE9EC27C8078E /* RKPieChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RKPieChart.framework; path = RKPieChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23F63A33A865CA9A892BF63EC4BCD4AF /* RKPieChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKPieChart.xcconfig; sourceTree = "<group>"; };
 		24D2ADC59098CFA7E968ED1D7B8D57CA /* Pods-TweetEmojiAnalyzerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TweetEmojiAnalyzerTests.modulemap"; sourceTree = "<group>"; };
 		27EEF96DD7DF66678FDF0C3455E72635 /* Pods-TweetEmojiAnalyzer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TweetEmojiAnalyzer-frameworks.sh"; sourceTree = "<group>"; };
-		28AF94C3BF5E1AF47D7187A328590CAF /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
-		2F17C5405B202914F79C8F523F003F9E /* RKPieChartItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RKPieChartItem.swift; path = RKPieChart/Classes/RKPieChartItem.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32533C3EB4B2654ADD1B07ADE02E258D /* Pods-TweetEmojiAnalyzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetEmojiAnalyzer.debug.xcconfig"; sourceTree = "<group>"; };
+		35777EFF9FBCDA62B9F951D5AC38FD3E /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
 		41C784A6E6877B2AC42EF76F7ADAEFAA /* Pods-TweetEmojiAnalyzer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TweetEmojiAnalyzer-resources.sh"; sourceTree = "<group>"; };
 		451696E48625D2AB92CF1A57876BA2BB /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-dummy.m"; sourceTree = "<group>"; };
 		63BAC86FF7FA3901C833EC090266C769 /* Pods-TweetEmojiAnalyzerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetEmojiAnalyzerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		647E6F61971F5045D15EF4A7FDD02457 /* Pods_TweetEmojiAnalyzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TweetEmojiAnalyzer.framework; path = "Pods-TweetEmojiAnalyzer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69549473C129BB60D05ECD890CE368E5 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		68EF0712E61C98FB3FEFD05AEE211C7D /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		6E0BDA4AAB3BF07BEE9D5A339A4BDE93 /* Pods-TweetEmojiAnalyzerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweetEmojiAnalyzerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		75CC86FF378B4667C79AF96DA532623F /* Pods-TweetEmojiAnalyzerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TweetEmojiAnalyzerTests-dummy.m"; sourceTree = "<group>"; };
 		7FED6278F91CA1757101A934E7D263B2 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -136,24 +112,18 @@
 		97137AA625D5A3D5E15D4862A4D8661D /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9D2B40AA905F866F0889D1C5F355DEDA /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AAC798889668A0FC4DAE0CAF89CCF5B2 /* RKPieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RKPieChartView.swift; path = RKPieChart/Classes/RKPieChartView.swift; sourceTree = "<group>"; };
+		B02FFAFAAF07ED347D74F2EAA7EBE383 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
 		B1D5FE3F97A49873DF4F5BF573161029 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-umbrella.h"; sourceTree = "<group>"; };
-		BE2DC210011FD4F6308841A0589994C6 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
-		C1885405F478482E90B39B965A4B158D /* RKPieChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKPieChart-prefix.pch"; sourceTree = "<group>"; };
+		BD38CF279336F29D9E8BB93EB7BB688A /* TwitterCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterCore.xcconfig; sourceTree = "<group>"; };
 		C24FDD641C2EB2DF825FE26CB7AB1543 /* Pods-TweetEmojiAnalyzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetEmojiAnalyzer.release.xcconfig"; sourceTree = "<group>"; };
 		C412432E7B68FF9062CC2238DC28179E /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.modulemap"; sourceTree = "<group>"; };
 		C538676ED38BFD6F79FE371FAEFB3EB4 /* Pods-TweetEmojiAnalyzer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TweetEmojiAnalyzer-umbrella.h"; sourceTree = "<group>"; };
 		C673BCA7E020DDD904AC1AFEBEFFC06F /* Pods-TweetEmojiAnalyzer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweetEmojiAnalyzer-acknowledgements.plist"; sourceTree = "<group>"; };
 		CAA89B04A96C1F65DC7C47FE83652B5B /* Pods_TweetEmojiAnalyzer_TweetEmojiAnalyzerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TweetEmojiAnalyzer_TweetEmojiAnalyzerUITests.framework; path = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D885ECB6F8584BCB2BC30B7EDE79D33C /* RKPieChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RKPieChart.modulemap; sourceTree = "<group>"; };
 		E6E0ADE8AFFD69619241210D7640E54A /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-frameworks.sh"; sourceTree = "<group>"; };
 		E781DFA499F58AF5688E08590CA9D3E9 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F0154E582B572EEE91E20F1C61D00319 /* RKChartTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RKChartTitleView.swift; path = RKPieChart/Classes/RKChartTitleView.swift; sourceTree = "<group>"; };
-		F395BE8F7F52F67A576B3A18CFACA67E /* TwitterKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterKit.xcconfig; sourceTree = "<group>"; };
+		F0C37F83782C81F19057F06355A206ED /* TwitterKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterKit.xcconfig; sourceTree = "<group>"; };
 		FAA46589ECDD367E814DD16D00B9A6E3 /* Pods-TweetEmojiAnalyzerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TweetEmojiAnalyzerTests-umbrella.h"; sourceTree = "<group>"; };
-		FDCB289472AA670981066096DD3D730F /* RKPieChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RKPieChart-dummy.m"; sourceTree = "<group>"; };
-		FF58BFD6E458866E1FC05BAE9D89D6DE /* TwitterCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterCore.xcconfig; sourceTree = "<group>"; };
-		FF9CC2978D701A3B3693A4917BB927F5 /* RKPieChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RKPieChart-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,51 +135,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41DAFFF64563EF615C1E8E061C847F90 /* Frameworks */ = {
+		F683B1636E1C3D1593A48C995C2643A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				452E606312DABF031776D521E6984D8A /* Foundation.framework in Frameworks */,
+				7651F27EFF46196A5E90369F35BFAA53 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CF03D4BAD507EB06524EC36ACCB350F /* Frameworks */ = {
+		F7D216041DD6395D54B2046B81D69963 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA1E20755070B29981123777100FF49C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8927A451534FCD8C3EAE19D9511C9ED2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B5D1C2A7FA7616BF1FB3B7E2A19EE2B /* Foundation.framework in Frameworks */,
+				726CB09C2FD4573F16192722483B7BB5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		036EA3A8D3E9907F1DF967F63EFD8669 /* Frameworks */ = {
+		07CD99D1AA30BF081D1266265C816A0C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BE2DC210011FD4F6308841A0589994C6 /* TwitterCore.framework */,
+				68EF0712E61C98FB3FEFD05AEE211C7D /* TwitterKitResources.bundle */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		06A3B39BB01264DFFF1C0BED2A9CA283 /* RKPieChart */ = {
+		1D6112EB319583CF41570FC8442EFFB9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0154E582B572EEE91E20F1C61D00319 /* RKChartTitleView.swift */,
-				2F17C5405B202914F79C8F523F003F9E /* RKPieChartItem.swift */,
-				AAC798889668A0FC4DAE0CAF89CCF5B2 /* RKPieChartView.swift */,
-				70AD70935212F2176F5D2DCBFBDF9A34 /* Support Files */,
+				F0C37F83782C81F19057F06355A206ED /* TwitterKit.xcconfig */,
 			);
-			name = RKPieChart;
-			path = RKPieChart;
+			name = "Support Files";
+			path = "../Target Support Files/TwitterKit";
+			sourceTree = "<group>";
+		};
+		20AD6E851864F0FD45D57D6A15616B71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				647E6F61971F5045D15EF4A7FDD02457 /* Pods_TweetEmojiAnalyzer.framework */,
+				CAA89B04A96C1F65DC7C47FE83652B5B /* Pods_TweetEmojiAnalyzer_TweetEmojiAnalyzerUITests.framework */,
+				05D98D9D5094D98A0ED69B8DC378CC3D /* Pods_TweetEmojiAnalyzerTests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		306E35673DE9913A98EE09E230EF8C9B /* Targets Support Files */ = {
@@ -222,25 +191,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		391E4D0932E37BECADBD88C207E38794 /* Products */ = {
+		37C678708F350CB47B4C1BEFA7BD2353 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				647E6F61971F5045D15EF4A7FDD02457 /* Pods_TweetEmojiAnalyzer.framework */,
-				CAA89B04A96C1F65DC7C47FE83652B5B /* Pods_TweetEmojiAnalyzer_TweetEmojiAnalyzerUITests.framework */,
-				05D98D9D5094D98A0ED69B8DC378CC3D /* Pods_TweetEmojiAnalyzerTests.framework */,
-				153F6C1E2DA3A88EA50BE9EC27C8078E /* RKPieChart.framework */,
+				B02FFAFAAF07ED347D74F2EAA7EBE383 /* TwitterKit.framework */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		48B4BBC107BC0C56DF2A91BA0EF71A7F /* TwitterCore */ = {
-			isa = PBXGroup;
-			children = (
-				036EA3A8D3E9907F1DF967F63EFD8669 /* Frameworks */,
-				B3455320176FB3EA54041817327BE56B /* Support Files */,
-			);
-			name = TwitterCore;
-			path = TwitterCore;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		50E8C1FB830A50CA83A4C7C94D4DEAD0 /* Pods-TweetEmojiAnalyzerTests */ = {
@@ -277,43 +233,37 @@
 			path = "Target Support Files/Pods-TweetEmojiAnalyzer";
 			sourceTree = "<group>";
 		};
-		70AD70935212F2176F5D2DCBFBDF9A34 /* Support Files */ = {
+		6BE1F5001C26B4D6A4CB7E0B32AF723B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D885ECB6F8584BCB2BC30B7EDE79D33C /* RKPieChart.modulemap */,
-				23F63A33A865CA9A892BF63EC4BCD4AF /* RKPieChart.xcconfig */,
-				FDCB289472AA670981066096DD3D730F /* RKPieChart-dummy.m */,
-				FF9CC2978D701A3B3693A4917BB927F5 /* RKPieChart-Info.plist */,
-				C1885405F478482E90B39B965A4B158D /* RKPieChart-prefix.pch */,
-				111C9ACB4483CDD7B7F8E058A562302A /* RKPieChart-umbrella.h */,
+				35777EFF9FBCDA62B9F951D5AC38FD3E /* TwitterCore.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/RKPieChart";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		955872E9067350EA787E75B75E108134 /* TwitterKit */ = {
+		854EBAE85E1D39CA423AEB219B78013C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D8BAA80D263630FBA9865DAC40F44603 /* Frameworks */,
-				98C63CB0206FD66388A98F6D6E98B46F /* Resources */,
-				DC2C79644CCC803D94CD5F4E7E7E9836 /* Support Files */,
+				8C6551A524BABE87A965E4697483873A /* TwitterCore */,
+				C2658D0D12D8CD2CE98B6195CD52616B /* TwitterKit */,
 			);
-			name = TwitterKit;
-			path = TwitterKit;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		98C63CB0206FD66388A98F6D6E98B46F /* Resources */ = {
+		8C6551A524BABE87A965E4697483873A /* TwitterCore */ = {
 			isa = PBXGroup;
 			children = (
-				69549473C129BB60D05ECD890CE368E5 /* TwitterKitResources.bundle */,
+				6BE1F5001C26B4D6A4CB7E0B32AF723B /* Frameworks */,
+				97B2BCCF71479544FDAA82D68B1E3752 /* Support Files */,
 			);
-			name = Resources;
+			name = TwitterCore;
+			path = TwitterCore;
 			sourceTree = "<group>";
 		};
-		B3455320176FB3EA54041817327BE56B /* Support Files */ = {
+		97B2BCCF71479544FDAA82D68B1E3752 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF58BFD6E458866E1FC05BAE9D89D6DE /* TwitterCore.xcconfig */,
+				BD38CF279336F29D9E8BB93EB7BB688A /* TwitterCore.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TwitterCore";
@@ -327,13 +277,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C2658D0D12D8CD2CE98B6195CD52616B /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				37C678708F350CB47B4C1BEFA7BD2353 /* Frameworks */,
+				07CD99D1AA30BF081D1266265C816A0C /* Resources */,
+				1D6112EB319583CF41570FC8442EFFB9 /* Support Files */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E6E81698C636F13A4E997E9D2BFADDD8 /* Pods */,
-				391E4D0932E37BECADBD88C207E38794 /* Products */,
+				854EBAE85E1D39CA423AEB219B78013C /* Pods */,
+				20AD6E851864F0FD45D57D6A15616B71 /* Products */,
 				306E35673DE9913A98EE09E230EF8C9B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -364,41 +325,14 @@
 			path = "Target Support Files/Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests";
 			sourceTree = "<group>";
 		};
-		D8BAA80D263630FBA9865DAC40F44603 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				28AF94C3BF5E1AF47D7187A328590CAF /* TwitterKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC2C79644CCC803D94CD5F4E7E7E9836 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F395BE8F7F52F67A576B3A18CFACA67E /* TwitterKit.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TwitterKit";
-			sourceTree = "<group>";
-		};
-		E6E81698C636F13A4E997E9D2BFADDD8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				06A3B39BB01264DFFF1C0BED2A9CA283 /* RKPieChart */,
-				48B4BBC107BC0C56DF2A91BA0EF71A7F /* TwitterCore */,
-				955872E9067350EA787E75B75E108134 /* TwitterKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3763818604FA9B3C7EC8BA9FB7AED5E0 /* Headers */ = {
+		899950C98841274DF0630DFE1B7FA539 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0FCA250EA7ADC5952A972E60BCA386 /* RKPieChart-umbrella.h in Headers */,
+				A358AF0ABD724AD5A247561E3FC06489 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,19 +344,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C63C2323DC6417D40E95FD82DF8B9F5A /* Headers */ = {
+		A9B57A7C25620B8AA65A749E3795DF6C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC46A5504AB4063B723472FB863B2B3 /* Pods-TweetEmojiAnalyzer-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7E54E03643F85331EF10D17682B3BE2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				273DB797D7816C80474970D1805D7290 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-umbrella.h in Headers */,
+				20B292BA3340262980F230841E9EBAA9 /* Pods-TweetEmojiAnalyzer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,39 +374,20 @@
 			productReference = 05D98D9D5094D98A0ED69B8DC378CC3D /* Pods_TweetEmojiAnalyzerTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5D6137B0C81EB5C39983C8DD12A03181 /* RKPieChart */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55985C86EE60B4584B9436C14D139794 /* Build configuration list for PBXNativeTarget "RKPieChart" */;
-			buildPhases = (
-				3763818604FA9B3C7EC8BA9FB7AED5E0 /* Headers */,
-				41E791DA9B789631D735969B1BCBA5AF /* Sources */,
-				41DAFFF64563EF615C1E8E061C847F90 /* Frameworks */,
-				B9B3F9164B03A0CA12E6AAC717F40ED2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RKPieChart;
-			productName = RKPieChart;
-			productReference = 153F6C1E2DA3A88EA50BE9EC27C8078E /* RKPieChart.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		7CF48B00CEFC67CC12256D8735ED2054 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3CF1AD672D788B2B09C8806DCD26721 /* Build configuration list for PBXNativeTarget "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests" */;
+			buildConfigurationList = 0C4210C7333BA9481A479A2E22B24CAD /* Build configuration list for PBXNativeTarget "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests" */;
 			buildPhases = (
-				D7E54E03643F85331EF10D17682B3BE2 /* Headers */,
-				37C67C9114E3292B4D9B5D77A78FCC56 /* Sources */,
-				8927A451534FCD8C3EAE19D9511C9ED2 /* Frameworks */,
-				FA5621699685EF7AFA3E817E609AEFA7 /* Resources */,
+				899950C98841274DF0630DFE1B7FA539 /* Headers */,
+				8F91A2D2ABC11422E497FCF884D9848E /* Sources */,
+				F683B1636E1C3D1593A48C995C2643A0 /* Frameworks */,
+				B568EF473AF067AEF1DCC162713B2A18 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0CFCEC63E4826C9108A8A942D5D71DA4 /* PBXTargetDependency */,
-				49122DDD7179FDDCA14F92C7E7881707 /* PBXTargetDependency */,
-				B7CD5AB679B2579E36D396E297FAE38F /* PBXTargetDependency */,
+				D74BC288EACD6569F3311D7C6408FB34 /* PBXTargetDependency */,
+				04357CE21DCB24889DE0A887DD84069A /* PBXTargetDependency */,
 			);
 			name = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests";
 			productName = "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests";
@@ -489,19 +396,18 @@
 		};
 		D338B550A85D262856A587CCC19621D4 /* Pods-TweetEmojiAnalyzer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A09C34DF6176A626E87495408AC6A23 /* Build configuration list for PBXNativeTarget "Pods-TweetEmojiAnalyzer" */;
+			buildConfigurationList = A155C6529C0854F4FA12FA581CD64AC8 /* Build configuration list for PBXNativeTarget "Pods-TweetEmojiAnalyzer" */;
 			buildPhases = (
-				C63C2323DC6417D40E95FD82DF8B9F5A /* Headers */,
-				AF6C4A0B32A74FEFC1C6ACEA45F199C4 /* Sources */,
-				4CF03D4BAD507EB06524EC36ACCB350F /* Frameworks */,
-				541FAD30201F75C330F620D87B429B30 /* Resources */,
+				A9B57A7C25620B8AA65A749E3795DF6C /* Headers */,
+				1BF237797B8CA6FB86B17C2CB9557BB7 /* Sources */,
+				F7D216041DD6395D54B2046B81D69963 /* Frameworks */,
+				2306D200E8FB1AA4112AB2886A70A2C9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				201F70A1A0A2F32A8E6797E2C0AEB7BC /* PBXTargetDependency */,
-				4A0DD1E48A39C986CEA1E581552DB40D /* PBXTargetDependency */,
-				25EB7E14CE671E675CD93629665EF5BD /* PBXTargetDependency */,
+				33EB37A1DE48640936013C41B9D37CE6 /* PBXTargetDependency */,
+				6B387E8E1F4600893B3A6A49F5333662 /* PBXTargetDependency */,
 			);
 			name = "Pods-TweetEmojiAnalyzer";
 			productName = "Pods-TweetEmojiAnalyzer";
@@ -526,14 +432,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 391E4D0932E37BECADBD88C207E38794 /* Products */;
+			productRefGroup = 20AD6E851864F0FD45D57D6A15616B71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D338B550A85D262856A587CCC19621D4 /* Pods-TweetEmojiAnalyzer */,
 				7CF48B00CEFC67CC12256D8735ED2054 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests */,
 				46202D08028CCECE5869C0107EB23FCF /* Pods-TweetEmojiAnalyzerTests */,
-				5D6137B0C81EB5C39983C8DD12A03181 /* RKPieChart */,
 				D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */,
 				B60766D2DF87D6EAD1E04F386DA8986E /* TwitterKit */,
 			);
@@ -541,14 +446,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		541FAD30201F75C330F620D87B429B30 /* Resources */ = {
+		2306D200E8FB1AA4112AB2886A70A2C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9B3F9164B03A0CA12E6AAC717F40ED2 /* Resources */ = {
+		B568EF473AF067AEF1DCC162713B2A18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -562,21 +467,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA5621699685EF7AFA3E817E609AEFA7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37C67C9114E3292B4D9B5D77A78FCC56 /* Sources */ = {
+		1BF237797B8CA6FB86B17C2CB9557BB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC2BB8899470F37707B511EF60559BE /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-dummy.m in Sources */,
+				B66447E5D469F3801DDA0354D657F03F /* Pods-TweetEmojiAnalyzer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,51 +486,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41E791DA9B789631D735969B1BCBA5AF /* Sources */ = {
+		8F91A2D2ABC11422E497FCF884D9848E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219D053086EBFA04453E383E33247772 /* RKChartTitleView.swift in Sources */,
-				5AC3D52E70A5FF2FB0E622A9C8BDBF28 /* RKPieChart-dummy.m in Sources */,
-				EB668D2106140C0594F41A23EA581E4C /* RKPieChartItem.swift in Sources */,
-				2E039CC0B975081B3AD533E71F9F17DC /* RKPieChartView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF6C4A0B32A74FEFC1C6ACEA45F199C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E58DC53C4B7A29A6203715AFCCB38BCF /* Pods-TweetEmojiAnalyzer-dummy.m in Sources */,
+				578C9433697FA2C18E79D62240398B51 /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		04357CE21DCB24889DE0A887DD84069A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterKit;
+			target = B60766D2DF87D6EAD1E04F386DA8986E /* TwitterKit */;
+			targetProxy = C7DC60E2A1CD4DD84BBAA79D6FDF1F35 /* PBXContainerItemProxy */;
+		};
 		046C21D69CDB2F91A15B267A8BD610D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TwitterCore;
 			target = D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */;
 			targetProxy = 162463729D0CA3CB3C48A530517C6EBC /* PBXContainerItemProxy */;
-		};
-		0CFCEC63E4826C9108A8A942D5D71DA4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RKPieChart;
-			target = 5D6137B0C81EB5C39983C8DD12A03181 /* RKPieChart */;
-			targetProxy = 7F5E0F7C1F32A46C408F748D6EAEADB8 /* PBXContainerItemProxy */;
-		};
-		201F70A1A0A2F32A8E6797E2C0AEB7BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RKPieChart;
-			target = 5D6137B0C81EB5C39983C8DD12A03181 /* RKPieChart */;
-			targetProxy = 162360A8C478C8DF9EA1D883565601BC /* PBXContainerItemProxy */;
-		};
-		25EB7E14CE671E675CD93629665EF5BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TwitterKit;
-			target = B60766D2DF87D6EAD1E04F386DA8986E /* TwitterKit */;
-			targetProxy = BA834D88674900D87E230FAEAEFB8A22 /* PBXContainerItemProxy */;
 		};
 		291415F75113B79064C4742C579C6B0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -640,30 +515,107 @@
 			target = D338B550A85D262856A587CCC19621D4 /* Pods-TweetEmojiAnalyzer */;
 			targetProxy = 8593081618024B467FB3AAC931B5B7D1 /* PBXContainerItemProxy */;
 		};
-		49122DDD7179FDDCA14F92C7E7881707 /* PBXTargetDependency */ = {
+		33EB37A1DE48640936013C41B9D37CE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TwitterCore;
 			target = D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */;
-			targetProxy = 4392A6B08F331F3CA60F7DD965241B29 /* PBXContainerItemProxy */;
+			targetProxy = 084F45B82EF15CE875A6020119527135 /* PBXContainerItemProxy */;
 		};
-		4A0DD1E48A39C986CEA1E581552DB40D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TwitterCore;
-			target = D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */;
-			targetProxy = DE21BD4AA9949137359AB982D7CA8A64 /* PBXContainerItemProxy */;
-		};
-		B7CD5AB679B2579E36D396E297FAE38F /* PBXTargetDependency */ = {
+		6B387E8E1F4600893B3A6A49F5333662 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TwitterKit;
 			target = B60766D2DF87D6EAD1E04F386DA8986E /* TwitterKit */;
-			targetProxy = 63155FCD78462724C4620DE93C412A4E /* PBXContainerItemProxy */;
+			targetProxy = 71E37328C52B5A034D2042A9BEA3F66E /* PBXContainerItemProxy */;
+		};
+		D74BC288EACD6569F3311D7C6408FB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterCore;
+			target = D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */;
+			targetProxy = 5C4C5DA31328A045FC219013CDF42AAE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0C0E541F44ADEBFD4DD5BBE98C6EB073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24FDD641C2EB2DF825FE26CB7AB1543 /* Pods-TweetEmojiAnalyzer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweetEmojiAnalyzer/Pods-TweetEmojiAnalyzer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweetEmojiAnalyzer/Pods-TweetEmojiAnalyzer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F439F566733DE20890371BD10C92413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2B40AA905F866F0889D1C5F355DEDA /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests/Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests/Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2425D2EC1E656FB351A97FD00DFA8956 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF58BFD6E458866E1FC05BAE9D89D6DE /* TwitterCore.xcconfig */;
+			baseConfigurationReference = BD38CF279336F29D9E8BB93EB7BB688A /* TwitterCore.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -717,41 +669,6 @@
 			};
 			name = Release;
 		};
-		40006DF20B1BD9C0BBF3806F0B713BB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23F63A33A865CA9A892BF63EC4BCD4AF /* RKPieChart.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RKPieChart/RKPieChart-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RKPieChart/RKPieChart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RKPieChart/RKPieChart.modulemap";
-				PRODUCT_MODULE_NAME = RKPieChart;
-				PRODUCT_NAME = RKPieChart;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7B6DBD7E1987B9322D30C62E7FE8E326 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63BAC86FF7FA3901C833EC090266C769 /* Pods-TweetEmojiAnalyzerTests.debug.xcconfig */;
@@ -789,45 +706,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		84C015472C7D03805D4213626919B632 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C24FDD641C2EB2DF825FE26CB7AB1543 /* Pods-TweetEmojiAnalyzer.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TweetEmojiAnalyzer/Pods-TweetEmojiAnalyzer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TweetEmojiAnalyzer/Pods-TweetEmojiAnalyzer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -893,45 +771,39 @@
 			};
 			name = Debug;
 		};
-		9A24372EB42AD2B0DC5006095F2F44DE /* Debug */ = {
+		AF6F4A8D7B061787EEC8B804DBEA73FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D2B40AA905F866F0889D1C5F355DEDA /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.debug.xcconfig */;
+			baseConfigurationReference = BD38CF279336F29D9E8BB93EB7BB688A /* TwitterCore.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests/Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests/Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A3C22B7A93298247DB5D01713CF2B41A /* Release */ = {
+		D0E5F8B967427B94B1AF1A24742BFC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C37F83782C81F19057F06355A206ED /* TwitterKit.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8C0B2FCA7A3EE3F825C6F6C82F6D98B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97137AA625D5A3D5E15D4862A4D8661D /* Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.release.xcconfig */;
 			buildSettings = {
@@ -970,23 +842,7 @@
 			};
 			name = Release;
 		};
-		AF6F4A8D7B061787EEC8B804DBEA73FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF58BFD6E458866E1FC05BAE9D89D6DE /* TwitterCore.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C229E2DF4B8029BC13A453DE86351C15 /* Debug */ = {
+		E224C360353586894DAA0CCD8A67DE5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32533C3EB4B2654ADD1B07ADE02E258D /* Pods-TweetEmojiAnalyzer.debug.xcconfig */;
 			buildSettings = {
@@ -1021,58 +877,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CB247BDCEB2A3C3301118598583FBCA6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23F63A33A865CA9A892BF63EC4BCD4AF /* RKPieChart.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RKPieChart/RKPieChart-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RKPieChart/RKPieChart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RKPieChart/RKPieChart.modulemap";
-				PRODUCT_MODULE_NAME = RKPieChart;
-				PRODUCT_NAME = RKPieChart;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D0E5F8B967427B94B1AF1A24742BFC0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F395BE8F7F52F67A576B3A18CFACA67E /* TwitterKit.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1138,7 +942,7 @@
 		};
 		F2C09D78D27E3E57FF2517B8CE16E034 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F395BE8F7F52F67A576B3A18CFACA67E /* TwitterKit.xcconfig */;
+			baseConfigurationReference = F0C37F83782C81F19057F06355A206ED /* TwitterKit.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1165,11 +969,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A09C34DF6176A626E87495408AC6A23 /* Build configuration list for PBXNativeTarget "Pods-TweetEmojiAnalyzer" */ = {
+		0C4210C7333BA9481A479A2E22B24CAD /* Build configuration list for PBXNativeTarget "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C229E2DF4B8029BC13A453DE86351C15 /* Debug */,
-				84C015472C7D03805D4213626919B632 /* Release */,
+				0F439F566733DE20890371BD10C92413 /* Debug */,
+				D8C0B2FCA7A3EE3F825C6F6C82F6D98B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1183,15 +987,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55985C86EE60B4584B9436C14D139794 /* Build configuration list for PBXNativeTarget "RKPieChart" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				40006DF20B1BD9C0BBF3806F0B713BB2 /* Debug */,
-				CB247BDCEB2A3C3301118598583FBCA6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6FE90C77BD61B5F55D67CD15A0BF7F1E /* Build configuration list for PBXAggregateTarget "TwitterKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1201,11 +996,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3CF1AD672D788B2B09C8806DCD26721 /* Build configuration list for PBXNativeTarget "Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests" */ = {
+		A155C6529C0854F4FA12FA581CD64AC8 /* Build configuration list for PBXNativeTarget "Pods-TweetEmojiAnalyzer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A24372EB42AD2B0DC5006095F2F44DE /* Debug */,
-				A3C22B7A93298247DB5D01713CF2B41A /* Release */,
+				E224C360353586894DAA0CCD8A67DE5D /* Debug */,
+				0C0E541F44ADEBFD4DD5BBE98C6EB073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
