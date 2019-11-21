@@ -7,7 +7,7 @@ target 'TweetEmojiAnalyzer' do
 
   # Pods for TweetEmojiAnalyzer
   pod 'TwitterKit'
-  pod 'Charts'
+  pod "RKPieChart"
 
   target 'TweetEmojiAnalyzerTests' do
     inherit! :search_paths

@@ -4,28 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Charts.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
 		<key>Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>Pods-TweetEmojiAnalyzer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Pods-TweetEmojiAnalyzer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 		<key>Pods-TweetEmojiAnalyzerTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>RKPieChart.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

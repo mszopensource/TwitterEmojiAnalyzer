@@ -1,4 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests/Pods-TweetEmojiAnalyzer-TweetEmojiAnalyzerUITests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/RKPieChart/RKPieChart.framework
 ${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework
 ${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework
