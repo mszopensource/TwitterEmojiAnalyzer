@@ -88,8 +88,6 @@ class ViewController: UIViewController {
                 globalEmojiCounter(emoji: emoji)
             }
         }
-        //Filter
-        let sorted = emojiCounter.sorted(by: { $0.value > $1.value })
         //Add to results table
         let resultEntry = analysisResult(twitterAccountName: twitterAccountField.text, topEmojis: Array(emojiCounter.keys.sorted()))
         analysis.append(resultEntry)
