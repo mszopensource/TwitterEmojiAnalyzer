@@ -1,4 +1,4 @@
-# TwitterEmojiAnalyzer
+# Twitter Emoji Analyzer
 
 ## What is it?
 This iOS app helps fetch timeline tweets from a given Twitter username and analyzes the usage of emoji in all the loaded tweets. It's developed for a small course project demo and will probably not be maintained.
