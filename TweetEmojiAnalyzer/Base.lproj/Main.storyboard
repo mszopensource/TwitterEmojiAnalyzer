@@ -25,21 +25,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Twitter Account to analyze" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pc7-eS-5ol">
-                                <rect key="frame" x="258" y="20" width="407" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Twitter Account to analyze" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pc7-eS-5ol">
+                                <rect key="frame" x="357" y="20" width="422" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="# of tweets" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nrz-RR-cSu">
-                                <rect key="frame" x="673" y="20" width="215" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="215" id="4LL-TR-5Fj"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="twitter" smartDashesType="no"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2o-FW-7fl">
-                                <rect key="frame" x="896" y="21" width="121" height="30"/>
+                                <rect key="frame" x="797" y="22" width="121" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="121" id="5np-sP-M8x"/>
                                 </constraints>
@@ -49,11 +41,11 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZXY-K8-kjD">
-                                <rect key="frame" x="20" y="214" width="1326" height="790"/>
+                                <rect key="frame" x="20" y="214" width="1326" height="518"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6I-Qm-idg">
-                                <rect key="frame" x="1025" y="21" width="83" height="30"/>
+                                <rect key="frame" x="926" y="22" width="83" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="83" id="HDO-si-6tA"/>
                                 </constraints>
@@ -62,25 +54,31 @@
                                     <action selector="actionAnalyze" destination="BYZ-38-t0r" eventType="touchUpInside" id="f1F-Fr-Hwr"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gAh-jB-IyO">
+                                <rect key="frame" x="20" y="740" width="1326" height="264"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="s2o-FW-7fl" firstAttribute="leading" secondItem="pc7-eS-5ol" secondAttribute="trailing" constant="18" id="44H-FL-Gad"/>
                             <constraint firstItem="s2o-FW-7fl" firstAttribute="baseline" secondItem="e6I-Qm-idg" secondAttribute="baseline" id="4Dl-gg-gWs"/>
-                            <constraint firstItem="s2o-FW-7fl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="896" id="C2G-oM-p1W"/>
+                            <constraint firstItem="gAh-jB-IyO" firstAttribute="top" secondItem="ZXY-K8-kjD" secondAttribute="bottom" constant="8" id="9NR-KO-dcp"/>
+                            <constraint firstItem="s2o-FW-7fl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="797" id="C2G-oM-p1W"/>
                             <constraint firstItem="ZXY-K8-kjD" firstAttribute="top" secondItem="IG8-NB-dn2" secondAttribute="bottom" constant="8" id="Elm-4e-K2B"/>
                             <constraint firstItem="IG8-NB-dn2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EvK-tE-2ut"/>
-                            <constraint firstItem="pc7-eS-5ol" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="258" id="I8N-Ns-RpF"/>
+                            <constraint firstItem="pc7-eS-5ol" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="357" id="I8N-Ns-RpF"/>
                             <constraint firstItem="ZXY-K8-kjD" firstAttribute="trailing" secondItem="IG8-NB-dn2" secondAttribute="trailing" id="I9t-5e-IC8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e6I-Qm-idg" secondAttribute="trailing" constant="258" id="JlQ-KF-RG0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e6I-Qm-idg" secondAttribute="trailing" constant="357" id="JlQ-KF-RG0"/>
                             <constraint firstItem="IG8-NB-dn2" firstAttribute="top" secondItem="pc7-eS-5ol" secondAttribute="bottom" constant="28" id="LUa-Cb-oNl"/>
-                            <constraint firstItem="e6I-Qm-idg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="X4H-VI-7P5"/>
-                            <constraint firstItem="ZXY-K8-kjD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YNR-ak-h2C"/>
-                            <constraint firstItem="Nrz-RR-cSu" firstAttribute="leading" secondItem="pc7-eS-5ol" secondAttribute="trailing" constant="8" id="bqs-QL-T4Z"/>
-                            <constraint firstItem="Nrz-RR-cSu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="d40-qD-1mv"/>
+                            <constraint firstItem="e6I-Qm-idg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="X4H-VI-7P5"/>
+                            <constraint firstItem="ZXY-K8-kjD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-272" id="YNR-ak-h2C"/>
                             <constraint firstItem="ZXY-K8-kjD" firstAttribute="leading" secondItem="IG8-NB-dn2" secondAttribute="leading" id="fvC-F3-vcw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IG8-NB-dn2" secondAttribute="trailing" constant="20" id="g32-oa-YRz"/>
-                            <constraint firstItem="e6I-Qm-idg" firstAttribute="leading" secondItem="Nrz-RR-cSu" secondAttribute="trailing" constant="137" id="t4a-Pf-Za1"/>
+                            <constraint firstItem="gAh-jB-IyO" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="iyw-K8-dYo"/>
+                            <constraint firstItem="gAh-jB-IyO" firstAttribute="trailing" secondItem="ZXY-K8-kjD" secondAttribute="trailing" id="qQn-7U-a1g"/>
                             <constraint firstItem="pc7-eS-5ol" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="u4d-Pi-jxr"/>
+                            <constraint firstItem="gAh-jB-IyO" firstAttribute="leading" secondItem="ZXY-K8-kjD" secondAttribute="leading" id="vHa-60-kPr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -88,7 +86,6 @@
                         <outlet property="analyzeResultTableView" destination="ZXY-K8-kjD" id="fSS-mX-9f4"/>
                         <outlet property="logTextView" destination="IG8-NB-dn2" id="oms-Qa-bNc"/>
                         <outlet property="twitterAccountField" destination="pc7-eS-5ol" id="LCS-JS-qvh"/>
-                        <outlet property="twitterCategoryField" destination="Nrz-RR-cSu" id="P4g-A8-qP5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

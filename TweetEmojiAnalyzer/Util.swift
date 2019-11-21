@@ -13,7 +13,6 @@ import Foundation
  */
 struct analysisResult {
     var twitterAccountName: String!
-    var twitterAccountCategory: String!
     var topEmojis: [Character]!
 }
 

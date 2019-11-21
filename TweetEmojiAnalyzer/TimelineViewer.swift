@@ -12,18 +12,17 @@ import TwitterKit
 
 class TimelineViewer: TWTRTimelineViewController {
     
+    public var passingTwitterName: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let client = TWTRAPIClient.withCurrentUser()
-        self.dataSource = TWTRUserTimelineDataSource(screenName: "ShunzheMa", apiClient: client)
+        self.dataSource = TWTRUserTimelineDataSource(screenName: passingTwitterName, apiClient: client)
+        
 
         self.title = "@ShunzheMa"
         self.showTweetActions = false
-    }
-
-    func tweetView(tweetView: TWTRTweetView, didSelectTweet tweet: TWTRTweet) {
-        print("Selected tweet with ID: \(tweet.tweetID)")
     }
     
 }

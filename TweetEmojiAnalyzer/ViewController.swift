@@ -12,7 +12,6 @@ import TwitterKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var twitterAccountField: UITextField!
-    @IBOutlet weak var twitterCategoryField: UITextField!
     @IBOutlet weak var numOfFetchField: UITextField!
     
     @IBOutlet weak var logTextView: UITextView!
@@ -26,7 +25,7 @@ class ViewController: UIViewController {
         }
     }
     
-    let timelineVC = TimelineViewer()
+    var timelineVC: TimelineViewer!
     
     var tweetTexts = [String]()
     
@@ -46,11 +45,19 @@ class ViewController: UIViewController {
     }
 
     @IBAction func actionPrepare(){
+        timelineVC = TimelineViewer()
+        timelineVC.passingTwitterName = twitterAccountField.text
         let navC = UINavigationController(rootViewController: timelineVC)
         self.present(navC, animated: true, completion: nil)
     }
     
     @IBAction func actionAnalyze(){
+        
+        //Make sure the tweets are loaded
+        guard timelineVC != nil && timelineVC!.passingTwitterName != nil && twitterAccountField.text != "" && timelineVC!.passingTwitterName! == twitterAccountField.text else {
+            return
+        }
+        
         var emojiCounter = [Character:Int]()
         //Fetch data from timelineVC
         let counter = timelineVC.countOfTweets()
@@ -75,11 +82,11 @@ class ViewController: UIViewController {
         //Filter
         let sorted = emojiCounter.sorted(by: { $0.value > $1.value })
         //Update log
-        logText.append("Result: " + emojiCounter.description)
+        logText.append("Result: " + sorted.description)
         //Update chart
         
         //Add to results table
-        let resultEntry = analysisResult(twitterAccountName: twitterAccountField.text, twitterAccountCategory: twitterCategoryField.text, topEmojis: Array(emojiCounter.keys.sorted()))
+        let resultEntry = analysisResult(twitterAccountName: twitterAccountField.text, topEmojis: Array(emojiCounter.keys.sorted()))
         analysis.append(resultEntry)
         self.analyzeResultTableView.reloadData()
     }
@@ -101,7 +108,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         let obj = analysis[rowI]
         //Prepare view
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
-        cell.textLabel?.text = obj.twitterAccountName + "(" + obj.twitterAccountCategory + ")"
+        cell.textLabel?.text = obj.twitterAccountName
         //Generate top 3
         var topEmojiStr = "Top Emojis: "
         for emojiChar in obj.topEmojis {
