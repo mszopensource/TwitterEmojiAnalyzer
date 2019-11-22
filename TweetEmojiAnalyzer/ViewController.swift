@@ -27,7 +27,19 @@ class ViewController: UIViewController {
     
     var timelineVC: TimelineViewer!
     
-    var tweetTexts = [String]()
+    /*
+     Save a mapping between the tweetID and text content
+     so resultListViewController can show tweets with a
+     certain emoji
+     */
+    var tweetIDToContent = [String: String]()
+    
+    /*
+     A mapping from a certain emoji
+     to all the ID of all tweets
+     containing that emoji
+     */
+    var emojiToTweetID = [Character:[String]]()
     
     /*
      Save data for all analysis.
@@ -72,17 +84,22 @@ class ViewController: UIViewController {
         for i in 0..<counter {
             //Read each individual tweets
             let tweet = timelineVC.tweet(at: Int(i))
-            let textLine = tweet.tweetID + ": " + tweet.text
-            tweetTexts.append(textLine)
+            let textLine = tweet.author.formattedScreenName + ": " + tweet.text
+            tweetIDToContent[tweet.tweetID] = textLine
             logText.append(textLine + "\n\n")
             //Analyze
             let extractedEmojis = tweet.text.getEmojis()
             for emoji in extractedEmojis {
-                //Add to counter
-                if (emojiCounter.keys.contains(emoji)) {
+                //Add to counter and Map the emoji to tweet ID
+                //We are adding to emojiCounter and emojiTweetsMapping
+                //at the same time so the key should be identital.
+                if (emojiCounter.keys.contains(emoji) &&
+                    emojiToTweetID.keys.contains(emoji)) {
                     emojiCounter[emoji]! += 1
+                    emojiToTweetID[emoji]!.append(tweet.tweetID)
                 } else {
                     emojiCounter[emoji] = 1
+                    emojiToTweetID[emoji] = [tweet.tweetID]
                 }
                 //Add to global counter
                 globalEmojiCounter(emoji: emoji)
@@ -130,6 +147,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             }
             cell.detailTextLabel?.text = topEmojiStr
             
+            cell.selectionStyle = .none
+            
         } else if (tableView == overallResultTableView) {
             
             let sorted = globalEmojiCounter.sorted(by: { $0.value > $1.value })
@@ -151,10 +170,52 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             
         }
         
-        cell.selectionStyle = .none
         return cell
     }
     
+    /*
+     Clicking the overallResultTableView cell will present all the tweets with that emoji
+     */
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        guard tableView == overallResultTableView else { return }
+        
+        let rowI = indexPath.row
+        let sorted = globalEmojiCounter.sorted(by: { $0.value > $1.value })
+        let emojiEntry = sorted[rowI]
+        
+        //Fetch the tweet IDs
+        guard let tweetIDs = emojiToTweetID[emojiEntry.key] else { return }
+        //Convert to tweets
+        var tweetContents = [String]()
+        for tweetID in tweetIDs {
+            if let content = tweetIDToContent[tweetID] {
+                if (!tweetContents.contains(content)) {
+                    tweetContents.append(content)
+                }
+            }
+        }
+        
+        //Pass to and present resultDetailViewController
+        let detailVC = resultDetailViewController()
+        detailVC.tweetsToDisplay = tweetContents
+        
+        DispatchQueue.main.async {
+            self.present(detailVC, animated: true, completion: nil)
+        }
+        
+    }
+    
+}
+
+/*
+ Small helper functions
+ */
+extension ViewController {
+    
+    /*
+     Add a certain emoji to global counter
+     */
     func globalEmojiCounter(emoji: Character) {
         if globalEmojiCounter.keys.contains(emoji) {
             globalEmojiCounter[emoji]! += 1
