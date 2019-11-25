@@ -14,6 +14,7 @@ The interface contains configurations (on the very top), logs (on top), and two 
 
 ## Please Read: How to use?
 (You need Xcode to compile this. But you should have already known that)
+
 0. Provide a Twitter developer key and secret in `AppDelegate.Swift`, you can obtain one [here](https://developer.twitter.com/en.html)
 1. On the top of the app, enter the Twitter username (like: AppleMusic)
 2. Click on `Load Tweets`. You will see a list of tweets for that username, scroll to load the tweets you want to analyze (the more you scroll, the more tweets get loaded and analyzed. There might be a better way to fetch timeline).
