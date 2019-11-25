@@ -78,6 +78,8 @@ class ViewController: UIViewController {
         }
         
         var emojiCounter = [Character:Int]()
+        var totalEmojiCounter = 0
+        var tweetWithEmojiCounter = 0
         //Fetch data from timelineVC
         let counter = timelineVC.countOfTweets()
         logText.append("There are " + String(counter) + " loaded tweets.\n\n")
@@ -89,6 +91,8 @@ class ViewController: UIViewController {
             logText.append(textLine + "\n\n")
             //Analyze
             let extractedEmojis = tweet.text.getEmojis()
+            totalEmojiCounter += extractedEmojis.count
+            if extractedEmojis.count != 0 { tweetWithEmojiCounter += 1 }
             for emoji in extractedEmojis {
                 //Add to counter and Map the emoji to tweet ID
                 //We are adding to emojiCounter and emojiTweetsMapping
@@ -106,7 +110,12 @@ class ViewController: UIViewController {
             }
         }
         //Add to results table
-        let resultEntry = analysisResult(twitterAccountName: twitterAccountField.text, topEmojis: Array(emojiCounter.keys.sorted()))
+        let sorted = emojiCounter.sorted(by: { $0.value > $1.value })
+        var sortedKeys = [Character]()
+        for item in sorted {
+            sortedKeys.append(item.key)
+        }
+        let resultEntry = analysisResult(twitterAccountName: twitterAccountField.text, topEmojis: sortedKeys, analyzedTweetCount: Int(counter), totalEmojiCount: totalEmojiCounter, tweetsWithEmojiCount: tweetWithEmojiCounter)
         analysis.append(resultEntry)
         self.analyzeResultTableView.reloadData()
         self.overallResultTableView.reloadData()
@@ -141,13 +150,15 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             //Prepare view
             cell.textLabel?.text = obj.twitterAccountName
             //Generate top 3
-            var topEmojiStr = "Top Emojis: "
+            var topEmojiStr = "Tweets Analyzed: " + String(obj.analyzedTweetCount)
+            topEmojiStr.append("; Detected Emoji: " + String(obj.totalEmojiCount))
+            let percentTweetWithEmoji = Double(obj.tweetsWithEmojiCount) / Double(obj.analyzedTweetCount)
+            topEmojiStr.append(String(format:" (%.1f percent)", percentTweetWithEmoji))
+            topEmojiStr.append("; Top: ")
             for emojiChar in obj.topEmojis {
                 topEmojiStr.append(String(emojiChar) + " ")
             }
             cell.detailTextLabel?.text = topEmojiStr
-            
-            cell.selectionStyle = .none
             
         } else if (tableView == overallResultTableView) {
             

@@ -14,6 +14,9 @@ import Foundation
 struct analysisResult {
     var twitterAccountName: String!
     var topEmojis: [Character]!
+    var analyzedTweetCount: Int!
+    var totalEmojiCount: Int!
+    var tweetsWithEmojiCount: Int!
 }
 
 /*
