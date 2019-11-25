@@ -19,7 +19,7 @@ The interface contains configurations (on the very top), logs (on top), and two 
 3. Now close the timeline view by swipe down the title bar, and click on analysis.
 
 ## Known issues
-The function to recognize emojis in a string `unicodeScalers.properties.isEmoji` might recognize the emoji some skin tone customization as a seperate emoji. I do not know how to resolve this. If you want to fix it please PR.
+The function to recognize emojis in a string `unicodeScalers.properties.isEmoji` recognizes the emoji skin tone customizations as a seperate emoji. I do not know how to resolve this. If you want to fix it please PR.
 
 ## Frameworks
 
