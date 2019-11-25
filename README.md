@@ -12,13 +12,13 @@ The interface contains configurations (on the very top), logs (on top), and two 
 
 ![image](https://github.com/msztech/TwitterEmojiAnalyzer/blob/master/screenshot.jpeg?raw=true)
 
-## How to use?
+## Please Read: How to use?
 0. Provide a Twitter developer key and secret in `AppDelegate.Swift`, you can obtain one [here](https://developer.twitter.com/en.html)
 1. On the top of the app, enter the Twitter username (like: AppleMusic)
 2. Click on `Load Tweets`. You will see a list of tweets for that username, scroll to load the tweets you want to analyze (the more you scroll, the more tweets get loaded and analyzed. There might be a better way to fetch timeline).
 3. Now close the timeline view by swipe down the title bar, and click on analysis.
 
-## Known issues
+## Please Read: Known issues
 The function to recognize emojis in a string `unicodeScalers.properties.isEmoji` recognizes the emoji skin tone customizations as a seperate emoji. I do not know how to resolve this. If you want to fix it please PR.
 
 ## Frameworks
